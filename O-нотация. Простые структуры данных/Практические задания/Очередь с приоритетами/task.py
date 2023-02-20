@@ -85,7 +85,7 @@ if __name__ == "__main__":
     a.enqueue("sssss", 3)
     a.enqueue("tttt", 4)
     print(a._queue)
-    # print(a.dequeue())
+    print(a.dequeue())
     print(a.dequeue())
     print(a.dequeue())
     # print(a.dequeue())
