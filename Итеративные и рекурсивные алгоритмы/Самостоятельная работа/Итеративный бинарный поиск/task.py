@@ -38,5 +38,5 @@ def binary_search(value: int, seq: Sequence) -> int:
     raise ValueError("Такого числа нет")
 
 
-binary_search(0, [0,0,0,2,5,7,9,9,9,68])
+binary_search(68, [0,0,0,2,5,7,9,9,9,68])
       # TODO реализовать итеративный алгоритм бинарного поиска
