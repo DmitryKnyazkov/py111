@@ -21,7 +21,6 @@ def sort(container: List[int]) -> List[int]:
             sort([item for item in container if item > pivot])
     )
 
-
 a = [5,4,3,2,1]
 print(sort(a))
 
