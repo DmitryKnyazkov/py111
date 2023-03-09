@@ -3,7 +3,7 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 1110
+  - offset: 1125
     length: 58
     placeholder_text: '...  # TODO реализовать итеративный алгоритм бинарного поиска'
     initial_state:
@@ -131,7 +131,7 @@ status: Failed
 feedback:
   message: '0 != None : Бинарный поиск должен возвращать индекс первой встречи искомого
     элемента'
-  time: Tue, 28 Feb 2023 18:02:25 UTC
+  time: Tue, 28 Feb 2023 18:35:53 UTC
   expected: 0
   actual: None
 record: -1

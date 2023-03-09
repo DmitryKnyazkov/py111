@@ -21,7 +21,6 @@ def binary_search(value: int, seq: Sequence) -> int:
 
         if seq[seredina] == value:
             if seredina != 0:
-
                 while seq[seredina-1] == seq[seredina]:
                     seredina = seredina - 1
             return print(f"ваше число {value}, оно находится по {seredina} индексу")
@@ -38,5 +37,5 @@ def binary_search(value: int, seq: Sequence) -> int:
     raise ValueError("Такого числа нет")
 
 
-binary_search(68, [0,0,0,2,5,7,9,9,9,68])
+binary_search(0, [0,0,0,2,2,2,2,2,4,4,4,4,4,4,4,4,4,4,])
       # TODO реализовать итеративный алгоритм бинарного поиска
